@@ -3,8 +3,6 @@ permalink: /research/
 title: "Research"
 ---
 
-# Research
-
 ## Publications
 
 From 65 to 103, older adults experience virtual reality differently depending on their age: Evidence from a large-scale field study in nursing homes and assisted living facilities
