@@ -49,3 +49,23 @@ Do gender cues from images supersede partisan cues conveyed via text? Eye moveme
 *Political Communication*<br>
 Coronel, J.C., **Moore, R.C.**, & deBuys, B. (2020)<br>
 [[Paper]](https://ryanmoore.science/assets/papers/coronel-et-al-2020-do-gender-cues-from-images-supersede-partisan-cues-conveyed-via-text.pdf){:target="_blank"} [[DOI]](https://doi.org/10.1080/10584609.2020.1763530){:target="_blank"}
+
+## Revise & Resubmit
+
+Building resilience to misinformation in communities of color: Results from two studies of tailored digital media literacy interventions<br>
+Revise and Resubmit at *New Media & Society*<br>
+Lee, A.Y., **Moore, R.C.**, & Hancock, J.T.
+
+Can digital literacy improve older adults’ resilience to misinformation? A randomized control trial<br>
+Revise and Resubmit at *Communications Psychology*<br>
+**Moore, R.C.**, Tran, J., Matz, S.C., & Hancock, J.T
+
+## Under Review
+
+The consumption of pink slime journalism: Who, what, when, where, and why?<br>
+Under review<br>
+**Moore, R.C.**, Dahlke, R., Bengani, P., & Hancock, J.T.
+
+Group discussion improves misinformation detection<br>
+Under review<br>
+Jia, C., Lee, A.Y., **Moore, R.C.**, Decatur, C., Liu, S.X., Hancock, J.T.
