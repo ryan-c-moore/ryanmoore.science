@@ -9,6 +9,4 @@ Hello! I am a Ph.D. candidate in the [Department of Communication](https://comm.
 
 My research program focuses on older adults' digital media and technology use. Most broadly, I am interested in identifying how older adults can use digital media and technology to enhance health and well-being, as well as understanding ways to help older adults build resilience to online threats such as mis/disinformation and scams. My other research explores how people encounter, process, and engage with (problematic) information online. I use a diveristy of methods in my work, including large-scale naturalistic digital trace data, online and lab experiments, surveys, content analysis, and computational linguistic analysis.
 
-My work relies on a diversity of methods, including 
-
 Visit the [Research](https://ryanmoore.science/research/) tab to view my publications and more about my ongoing work. My full CV is available [here](https://drive.google.com/file/d/17MjPGp6fG9l02bI825MCfUPXMaICsfNx/view){:target="_blank"}.
