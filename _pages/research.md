@@ -15,7 +15,7 @@ Exposure to untrustworthy websites in the 2020 US election<br>
 *Nature Human Behaviour*<br>
 **Moore, R.C.**, Dahlke, R., & Hancock, J.T. (2023)<br>
 [[Paper]](https://ryanmoore.science/assets/papers/moore-et-al-2023-exposure-to-untrustworthy-websites-in-the-2020-us-election.pdf){:target="_blank"} [[DOI]](https://doi.org/10.1038/s41562-023-01564-2){:target="_blank"}<br>
-Coverage in [The New York Times](https://www.nytimes.com/2023/04/13/business/media/misinformation-2020-election-study.html){:target="_blank"}
+Coverage in [The New York Times](https://www.nytimes.com/2023/04/13/business/media/misinformation-2020-election-study.html){:target="_blank"}, [Stanford News](https://news.stanford.edu/2023/04/13/2020-election-saw-fewer-people-clicking-misinformation-websites-stanford-study-finds/){:target="_blank"}
 
 Political information search in “noisy” online environments: Insights from an experiment examining older and younger adults’ searches on smartphones and laptops<br>
 *Journal of Information Technology & Politics*<br>
