@@ -6,7 +6,7 @@ title: "Research"
 ## Publications
 
 From 65 to 103, older adults experience virtual reality differently depending on their age: Evidence from a large-scale field study in nursing homes and assisted living facilities<br>
-*Cybperpsychology, Behavior, and Social Netowrking*<br>
+*Cybperpsychology, Behavior, and Social Networking*<br>
 **Moore, R.C.**, Hancock, J.T., & Bailenson, J.N. (2023)<br>
 [[Paper]](https://ryanmoore.science/assets/papers/moore-et-al-2023-from-65-to-103-older-adults-experience-virtual-reality-differently-depending-on-their-age.pdf){:target="_blank"} [[DOI]](http://doi.org/10.1089/cyber.2023.0188){:target="_blank"}<br>
 Coverage in [The Washington Post](https://www.washingtonpost.com/technology/2023/12/21/virtual-reality-eldercare-benefits-loneliness/){:target="_blank"}, [McKnights Senior Living](https://www.mcknightsseniorliving.com/home/technology/providers-advised-vr-platforms-may-not-be-worthwhile-for-octogenarians-and-above/){:target="_blank"}
