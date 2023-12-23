@@ -40,7 +40,8 @@ Interpersonal discussion and political knowledge: Unpacking the black box via a 
 Age-related differences in experiences with social distancing at the onset of the COVID-19 pandemic: A computational and content-analytic investigation of natural language from a social media survey<br>
 *JMIR Human Factors*<br>
 **Moore, R.C.**, Lee, A.Y., Hancock, J.T., Halley, M.C., & Linos, E. (2021)<br>
-[[Paper]](https://ryanmoore.science/assets/papers/moore-et-al-2021-age-related-differences-in-experiences-with-social-distancing-at-the-onset-of-the-covid19-pandemic.pdf){:target="_blank"} [[DOI]](https://doi.org/10.2196/26043){:target="_blank"}
+[[Paper]](https://ryanmoore.science/assets/papers/moore-et-al-2021-age-related-differences-in-experiences-with-social-distancing-at-the-onset-of-the-covid19-pandemic.pdf){:target="_blank"} [[DOI]](https://doi.org/10.2196/26043){:target="_blank"}<br>
+Coverage in [Stanford News](https://news.stanford.edu/2020/04/14/people-didnt-social-distance/){:target="_blank"}
 
 Older adults, social technologies, and the coronavirus pandemic: Challenges, strengths, and strategies for support<br>
 *Social Media + Society*<br>
