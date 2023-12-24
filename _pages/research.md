@@ -56,11 +56,11 @@ Coronel, J.C., **Moore, R.C.**, & deBuys, B. (2020)<br>
 ## Revise & Resubmit
 
 Building resilience to misinformation in communities of color: Results from two studies of tailored digital media literacy interventions<br>
-Revise and Resubmit at *New Media & Society*<br>
+Revise & Resubmit at *New Media & Society*<br>
 Lee, A.Y., **Moore, R.C.**, & Hancock, J.T.
 
 Can digital literacy improve older adults’ resilience to misinformation? A randomized control trial<br>
-Revise and Resubmit at *Communications Psychology*<br>
+Revise & Resubmit at *Communications Psychology*<br>
 **Moore, R.C.**, Tran, J., Matz, S.C., & Hancock, J.T
 
 ## Under Review
