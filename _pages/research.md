@@ -9,7 +9,7 @@ From 65 to 103, older adults experience virtual reality differently depending on
 *Cybperpsychology, Behavior, and Social Networking*<br>
 **Moore, R.C.**, Hancock, J.T., & Bailenson, J.N. (2023)<br>
 [[Paper]](https://ryanmoore.science/assets/papers/moore-et-al-2023-from-65-to-103-older-adults-experience-virtual-reality-differently-depending-on-their-age.pdf){:target="_blank"} [[DOI]](http://doi.org/10.1089/cyber.2023.0188){:target="_blank"}<br>
-Coverage in [The Washington Post](https://www.washingtonpost.com/technology/2023/12/21/virtual-reality-eldercare-benefits-loneliness/){:target="_blank"}, [McKnights Senior Living](https://www.mcknightsseniorliving.com/home/technology/providers-advised-vr-platforms-may-not-be-worthwhile-for-octogenarians-and-above/){:target="_blank"}
+Coverage by [Associated Press](https://apnews.com/article/virtual-reality-seniors-florida-dementia-c2989fcfb5dca58639fbc0f8060d1eff){:target="_blank"}, [CBS News](https://www.cbsnews.com/video/older-adults-benefit-from-virtual-reality-headsets-study/){:target="_blank"}, [WGLT (NPR Station)](https://www.wglt.org/local-news/2024-03-07/a-bloomington-creators-vr-worlds-are-helping-older-adults-stave-off-social-isolation){:target="_blank"}, [Fortune](https://fortune.com/2024/02/19/stanford-university-vr-study-seniors-eldery/){:target="_blank"}, [The Washington Post](https://www.washingtonpost.com/technology/2023/12/21/virtual-reality-eldercare-benefits-loneliness/){:target="_blank"}, [McKnights Senior Living](https://www.mcknightsseniorliving.com/home/technology/providers-advised-vr-platforms-may-not-be-worthwhile-for-octogenarians-and-above/){:target="_blank"}
 
 Exposure to untrustworthy websites in the 2020 US election<br>
 *Nature Human Behaviour*<br>
