@@ -5,6 +5,11 @@ title: "Research"
 
 ## Publications
 
+Building resilience to misinformation in communities of color: Results from two studies of tailored digital media literacy interventions<br>
+*New Media & Society*<br>
+Lee, A.Y., **Moore, R.C.**, & Hancock, J.T. (2024)<br>
+[[Paper]](https://ryanmoore.science/assets/papers/moore-&-coronel-2022-interpersonal-discussion-and-political-knowledge.pdf){:target="_blank"} [[DOI]](https://doi.org/10.1177/14614448241227841){:target="_blank"}
+
 From 65 to 103, older adults experience virtual reality differently depending on their age: Evidence from a large-scale field study in nursing homes and assisted living facilities<br>
 *Cybperpsychology, Behavior, and Social Networking*<br>
 **Moore, R.C.**, Hancock, J.T., & Bailenson, J.N. (2023)<br>
@@ -15,7 +20,7 @@ Exposure to untrustworthy websites in the 2020 US election<br>
 *Nature Human Behaviour*<br>
 **Moore, R.C.**, Dahlke, R., & Hancock, J.T. (2023)<br>
 [[Paper]](https://ryanmoore.science/assets/papers/moore-et-al-2023-exposure-to-untrustworthy-websites-in-the-2020-us-election.pdf){:target="_blank"} [[DOI]](https://doi.org/10.1038/s41562-023-01564-2){:target="_blank"}<br>
-Coverage in [The New York Times](https://www.nytimes.com/2023/04/13/business/media/misinformation-2020-election-study.html){:target="_blank"}, [Stanford News](https://news.stanford.edu/2023/04/13/2020-election-saw-fewer-people-clicking-misinformation-websites-stanford-study-finds/){:target="_blank"}
+Coverage by [The New York Times](https://www.nytimes.com/2023/04/13/business/media/misinformation-2020-election-study.html){:target="_blank"}, [Stanford News](https://news.stanford.edu/2023/04/13/2020-election-saw-fewer-people-clicking-misinformation-websites-stanford-study-finds/){:target="_blank"}
 
 Political information search in “noisy” online environments: Insights from an experiment examining older and younger adults’ searches on smartphones and laptops<br>
 *Journal of Information Technology & Politics*<br>
@@ -41,7 +46,7 @@ Age-related differences in experiences with social distancing at the onset of th
 *JMIR Human Factors*<br>
 **Moore, R.C.**, Lee, A.Y., Hancock, J.T., Halley, M.C., & Linos, E. (2021)<br>
 [[Paper]](https://ryanmoore.science/assets/papers/moore-et-al-2021-age-related-differences-in-experiences-with-social-distancing-at-the-onset-of-the-covid19-pandemic.pdf){:target="_blank"} [[DOI]](https://doi.org/10.2196/26043){:target="_blank"}<br>
-Coverage in [Stanford News](https://news.stanford.edu/2020/04/14/people-didnt-social-distance/){:target="_blank"}
+Coverage by [Stanford News](https://news.stanford.edu/2020/04/14/people-didnt-social-distance/){:target="_blank"}
 
 Older adults, social technologies, and the coronavirus pandemic: Challenges, strengths, and strategies for support<br>
 *Social Media + Society*<br>
@@ -55,20 +60,16 @@ Coronel, J.C., **Moore, R.C.**, & deBuys, B. (2020)<br>
 
 ## Revise & Resubmit
 
-Building resilience to misinformation in communities of color: Results from two studies of tailored digital media literacy interventions<br>
-Revise & Resubmit at *New Media & Society*<br>
-Lee, A.Y., **Moore, R.C.**, & Hancock, J.T.
-
 Can digital literacy improve older adults’ resilience to misinformation? A randomized control trial<br>
 Revise & Resubmit at *Communications Psychology*<br>
 **Moore, R.C.**, Tran, J., Matz, S.C., & Hancock, J.T
+
+Group discussion improves misinformation detection<br>
+Revise & Resubmit at *PNAS Nexus*<br>
+Jia, C., Lee, A.Y., **Moore, R.C.**, Decatur, C., Liu, S.X., Hancock, J.T.
 
 ## Under Review
 
 The consumption of pink slime journalism: Who, what, when, where, and why?<br>
 Under review<br>
 **Moore, R.C.**, Dahlke, R., Bengani, P., & Hancock, J.T.
-
-Group discussion improves misinformation detection<br>
-Under review<br>
-Jia, C., Lee, A.Y., **Moore, R.C.**, Decatur, C., Liu, S.X., Hancock, J.T.
