@@ -5,7 +5,7 @@ title: "Research"
 
 ## Publications
 
-Group discussion improves misinformation detection<br>
+Collaboration, crowdsourcing, and misinformation<br>
 Forthcoming at *PNAS Nexus*<br>
 Jia, C., Lee, A.Y., **Moore, R.C.**, Decatur, C., Liu, S.X., Hancock, J.T.
 
