@@ -5,6 +5,14 @@ title: "Research"
 
 ## Publications
 
+Group discussion improves misinformation detection<br>
+Forthcoming at *PNAS Nexus*<br>
+Jia, C., Lee, A.Y., **Moore, R.C.**, Decatur, C., Liu, S.X., Hancock, J.T.
+
+The private life of QAnon: A mixed methods investigation of Americans’ exposure to QAnon content on the web<br>
+Forthcoming at CSCW 2024<br>
+Dahlke, R., **Moore, R.C.**, Forberg, P., & Hancock, J.T.
+
 Building resilience to misinformation in communities of color: Results from two studies of tailored digital media literacy interventions<br>
 *New Media & Society*<br>
 Lee, A.Y., **Moore, R.C.**, & Hancock, J.T. (2024)<br>
@@ -64,17 +72,9 @@ Can digital literacy improve older adults’ resilience to misinformation? A ran
 Revise & Resubmit at *Communications Psychology*<br>
 **Moore, R.C.**, Tran, J., Matz, S.C., & Hancock, J.T
 
-Group discussion improves misinformation detection<br>
-Revise & Resubmit at *PNAS Nexus*<br>
-Jia, C., Lee, A.Y., **Moore, R.C.**, Decatur, C., Liu, S.X., Hancock, J.T.
-
 The consumption of pink slime journalism: Who, what, when, where, and why?<br>
 Revise & Resubmit at *Digital Journalism*<br>
 **Moore, R.C.**, Dahlke, R., Bengani, P., & Hancock, J.T.
-
-The private life of QAnon: A mixed methods investigation of Americans’ exposure to QAnon content on the web<br>
-Revise & Resubmit at CSCW 2024<br>
-Dahlke, R., **Moore, R.C.**, Forberg, P., & Hancock, J.T.
 
 Multi-platform referrers of misinformation: A comparative analysis of misinformation visits referred by Facebook, Twitter, Instagram, Reddit, YouTube, Snapchat, and TikTok<br>
 Revise & Resubmit at *Political Communication*<br>
