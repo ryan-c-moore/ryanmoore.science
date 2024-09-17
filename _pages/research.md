@@ -11,7 +11,7 @@ Jia, C., Lee, A.Y., **Moore, R.C.**, Decatur, C., Liu, S.X., Hancock, J.T.
 
 The private life of QAnon: A mixed methods investigation of Americans’ exposure to QAnon content on the web<br>
 Forthcoming at CSCW 2024<br>
-Dahlke, R., **Moore, R.C.**, Forberg, P., & Hancock, J.T.
+**Moore, R.C.**, Dahlke, R., Forberg, P., & Hancock, J.T.
 
 Building resilience to misinformation in communities of color: Results from two studies of tailored digital media literacy interventions<br>
 *New Media & Society*<br>
@@ -74,7 +74,7 @@ Revise & Resubmit at *Communications Psychology*<br>
 
 The consumption of pink slime journalism: Who, what, when, where, and why?<br>
 Revise & Resubmit at *Digital Journalism*<br>
-**Moore, R.C.**, Dahlke, R., Bengani, P., & Hancock, J.T.
+Dahlke, R., **Moore, R.C.**, Bengani, P., & Hancock, J.T.
 
 Multi-platform referrers of misinformation: A comparative analysis of misinformation visits referred by Facebook, Twitter, Instagram, Reddit, YouTube, Snapchat, and TikTok<br>
 Revise & Resubmit at *Political Communication*<br>
