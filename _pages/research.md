@@ -16,7 +16,7 @@ Forthcoming at CSCW 2024<br>
 Building resilience to misinformation in communities of color: Results from two studies of tailored digital media literacy interventions<br>
 *New Media & Society*<br>
 Lee, A.Y., **Moore, R.C.**, & Hancock, J.T. (2024)<br>
-[[https://doi.org/10.1177/14614448241227841]](https://doi.org/10.1177/14614448241227841){:target="_blank"}
+[https://doi.org/10.1177/14614448241227841](https://doi.org/10.1177/14614448241227841){:target="_blank"}
 
 From 65 to 103, older adults experience virtual reality differently depending on their age: Evidence from a large-scale field study in nursing homes and assisted living facilities<br>
 *Cybperpsychology, Behavior, and Social Networking*<br>
