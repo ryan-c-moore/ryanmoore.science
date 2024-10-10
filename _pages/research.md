@@ -5,13 +5,14 @@ title: "Research"
 
 ## Publications
 
-Collaboration, crowdsourcing, and misinformation<br>
-Forthcoming at *PNAS Nexus*<br>
-Jia, C., Lee, A.Y., **Moore, R.C.**, Decatur, C., Liu, S.X., Hancock, J.T.
-
 The private life of QAnon: A mixed methods investigation of Americans’ exposure to QAnon content on the web<br>
 Forthcoming at CSCW 2024<br>
 **Moore, R.C.**, Dahlke, R., Forberg, P., & Hancock, J.T.
+
+Collaboration, crowdsourcing, and misinformation<br>
+*PNAS Nexus*<br>
+Jia, C., Lee, A.Y., **Moore, R.C.**, Decatur, C., Liu, S.X., Hancock, J.T. (2024)<br>
+[doi.org/10.1093/pnasnexus/pgae434](https://doi.org/10.1093/pnasnexus/pgae434){:target="_blank"}
 
 Building resilience to misinformation in communities of color: Results from two studies of tailored digital media literacy interventions<br>
 *New Media & Society*<br>
