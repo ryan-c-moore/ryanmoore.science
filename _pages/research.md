@@ -6,8 +6,14 @@ title: "Research"
 ## Publications
 
 The private life of QAnon: A mixed methods investigation of Americans’ exposure to QAnon content on the web<br>
-Forthcoming at CSCW 2024<br>
-**Moore, R.C.**, Dahlke, R., Forberg, P., & Hancock, J.T.
+*Proceedings of the ACM on Human-Computer Interaction (CSCW)*<br>
+**Moore, R.C.**, Dahlke, R., Forberg, P., & Hancock, J.T. (2024)<br>
+[https://doi.org/10.1145/3687057](https://doi.org/10.1145/3687057){:target="_blank"}
+
+Can digital literacy improve older adults’ resilience to misinformation? A randomized control trial<br>
+Stage 1 Registered Report Accepted in Principle at *Communications Psychology*<br>
+**Moore, R.C.**, Tran, J., Matz, S.C., & Hancock, J.T. (2024)<br>
+[https://tinyurl.com/3m2tuy58](https://tinyurl.com/3m2tuy58){:target="_blank"}
 
 Collaboration, crowdsourcing, and misinformation<br>
 *PNAS Nexus*<br>
@@ -69,10 +75,6 @@ Coronel, J.C., **Moore, R.C.**, & deBuys, B. (2020)<br>
 
 ## Revise & Resubmit
 
-Can digital literacy improve older adults’ resilience to misinformation? A randomized control trial<br>
-Revise & Resubmit at *Communications Psychology*<br>
-**Moore, R.C.**, Tran, J., Matz, S.C., & Hancock, J.T
-
 The consumption of pink slime journalism: Who, what, when, where, and why?<br>
 Revise & Resubmit at *Digital Journalism*<br>
 Dahlke, R., **Moore, R.C.**, Bengani, P., & Hancock, J.T.
@@ -83,3 +85,8 @@ Dahlke, R., **Moore, R.C.**, Adib-Azpeitia, D., Ugander, J., & Hancock, J.T.
 
 ## Under Review
 
+Extending Truth-Default Theory to misinformation: lessons for misinformation scholarship from deception research<br>
+**Moore, R.C.** & Hancock, J.T.
+
+Strengthening digital media literacy: An experimental evaluation of verification skills, general warnings, and social correction strategies<br>
+Tu, F., **Moore, R.C.**, Liu, S.X., & Hancock, J.T.
