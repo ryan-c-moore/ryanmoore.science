@@ -75,6 +75,10 @@ Coronel, J.C., **Moore, R.C.**, & deBuys, B. (2020)<br>
 
 ## Revise & Resubmit
 
+Extending Truth-Default Theory to misinformation: lessons for misinformation scholarship from deception research<br>
+Revise & Resubmit at *Perspectives on Psychological Sceince*<br>
+**Moore, R.C.** & Hancock, J.T.
+
 The consumption of pink slime journalism: Who, what, when, where, and why?<br>
 Revise & Resubmit at *Digital Journalism*<br>
 Dahlke, R., **Moore, R.C.**, Bengani, P., & Hancock, J.T.
@@ -85,8 +89,8 @@ Dahlke, R., **Moore, R.C.**, Adib-Azpeitia, D., Ugander, J., & Hancock, J.T.
 
 ## Under Review
 
-Extending Truth-Default Theory to misinformation: lessons for misinformation scholarship from deception research<br>
-**Moore, R.C.** & Hancock, J.T.
+Detecting synthetic, doubting authentic: AI attribution bias for political imagery.<br>
+Yan, H.Y., **Moore, R.C.**, Tu, F., & Hancock, J.T.
 
 Strengthening digital media literacy: An experimental evaluation of verification skills, general warnings, and social correction strategies<br>
 Tu, F., **Moore, R.C.**, Liu, S.X., & Hancock, J.T.
