@@ -87,7 +87,6 @@ main.wrap {
   gap: 24px;
   align-items: flex-start;
   margin-bottom: 32px;
-  flex-wrap: wrap;
 }
 .profile img {
   width: 140px;
@@ -95,6 +94,19 @@ main.wrap {
   object-fit: cover;
   border-radius: 8px;
   flex-shrink: 0;
+}
+.profile-body {
+  flex: 1;
+  min-width: 0;
+}
+@media (max-width: 520px) {
+  .profile {
+    flex-direction: column;
+  }
+  .profile img {
+    width: 120px;
+    height: 120px;
+  }
 }
 .profile-links {
   display: flex;
@@ -206,8 +218,6 @@ main h2:not(:first-child) {
 }
 
 .wp-item {
-  display: flex;
-  gap: 16px;
   padding: 16px 0;
   border-bottom: 1px solid var(--border);
 }
