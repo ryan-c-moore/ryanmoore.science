@@ -3,3 +3,6 @@ _site
 .jekyll-metadata
 Gemfile.lock
 .DS_Store
+preview.html
+assets/pubs/**/*.pdf
+assets/pubs/**/_candidates/

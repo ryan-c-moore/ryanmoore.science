@@ -1,0 +1,263 @@
+# Publications shown on the Research page (/research/).
+#
+# To add a new publication, copy one of the blocks below and fill it in.
+#
+# Fields:
+#   title    - required
+#   authors  - required. Write it exactly as you want it displayed; "Moore, R.C."
+#              is automatically bolded wherever it appears, so use that exact form.
+#              Add a trailing * for co-first authorship (e.g. "Moore, R.C.*").
+#   venue    - required for published/conditionally_accepted. Omit entirely for
+#              in_revision (R&R) entries — the repo is public, and this keeps
+#              the specific R&R venue from being publicly visible before the
+#              outcome is settled. (under_review never shows a venue either.)
+#   year     - required for status: published
+#   status   - "published", "conditionally_accepted", "in_revision", or
+#              "under_review". Anything other than "published" shows in the
+#              "Working Papers" list instead of the main tagged list, and
+#              doesn't need image/links/tags (though preprint links are nice).
+#   image    - optional path to a thumbnail, e.g. /assets/pubs/qanon.jpg.
+#              Recommended: roughly square, at least 200x200px. If omitted, a
+#              placeholder icon is shown. Put image files in assets/pubs/.
+#   links    - optional list of {label, url}, e.g. DOI, Preprint, PDF, website.
+#   coverage - optional list of {label, url} for press coverage.
+#   awards   - optional list of plain-text award strings.
+#   tags     - optional list of topic tags for the filter buttons on /research/.
+#              Reuse existing tags (misinformation, scams, older-adults,
+#              computational-methods, media-consumption, interventions, ai)
+#              where they fit, or introduce a new one if a paper doesn't match
+#              any existing tag.
+#   blurb    - optional 1-2 sentence plain-language summary. If present, a
+#              "nutshell description" toggle appears for that entry.
+
+- title: "Multi-platform referrers of misinformation: A comparative analysis of misinformation visits referred by Facebook, Twitter, Instagram, Reddit, YouTube, Snapchat, and TikTok"
+  authors: "Dahlke, R., Moore, R.C., Adib-Azpeitia, D., Ugander, J., & Hancock, J.T."
+  venue: "Political Communication"
+  year: 2026
+  status: published
+  image: "/assets/pubs/01-multi-platform-referrers-2026/thumbnail.jpg"
+  tags: [misinformation, computational-methods, media-consumption]
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1080/10584609.2026.2679492"
+
+- title: "The consumption of pink slime journalism: Who, what, when, where, and why?"
+  authors: "Dahlke, R.*, Moore, R.C.*, Bengani, P., & Hancock, J.T."
+  venue: "Digital Journalism"
+  year: 2026
+  status: published
+  image: "/assets/pubs/02-pink-slime-journalism-2026/thumbnail.jpg"
+  tags: [misinformation, media-consumption]
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1080/21670811.2026.2669525"
+  awards:
+    - "Top student paper award, Political Communication Division, International Communication Association"
+  coverage:
+    - label: "The Boston Globe"
+      url: "https://www.bostonglobe.com/2024/06/26/business/pink-slime-fake-news-new-england-west-cook/"
+    - label: "Northwestern Local News Initiative"
+      url: "https://localnewsinitiative.northwestern.edu/posts/2023/03/28/pink-slime-stanford-study/"
+
+- title: "The private life of QAnon: A mixed methods investigation of Americans' exposure to QAnon content on the web"
+  authors: "Moore, R.C.*, Dahlke, R.*, Forberg, P., & Hancock, J.T."
+  venue: "Proceedings of the ACM on Human-Computer Interaction (CSCW)"
+  year: 2024
+  status: published
+  image: "/assets/pubs/03-qanon-private-life-2024/thumbnail.jpg"
+  tags: [misinformation, computational-methods, media-consumption]
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1145/3687057"
+
+- title: "Collaboration, crowdsourcing, and misinformation"
+  authors: "Jia, C., Lee, A.Y., Moore, R.C., Decatur, C., Liu, S.X., & Hancock, J.T."
+  venue: "PNAS Nexus"
+  year: 2024
+  status: published
+  image: "/assets/pubs/04-collaboration-crowdsourcing-2024/thumbnail.jpg"
+  tags: [misinformation, interventions]
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1093/pnasnexus/pgae434"
+
+- title: "Building resilience to misinformation in communities of color: Results from two studies of tailored digital media literacy interventions"
+  authors: "Lee, A.Y.*, Moore, R.C.*, & Hancock, J.T."
+  venue: "New Media & Society"
+  year: 2024
+  status: published
+  image: "/assets/pubs/05-communities-of-color-resilience-2024/thumbnail.jpg"
+  tags: [misinformation, interventions]
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1177/14614448241227841"
+
+- title: "From 65 to 103, older adults experience virtual reality differently depending on their age: Evidence from a large-scale field study in nursing homes and assisted living facilities"
+  authors: "Moore, R.C., Hancock, J.T., & Bailenson, J.N."
+  venue: "Cyberpsychology, Behavior, and Social Networking"
+  year: 2023
+  status: published
+  image: "/assets/pubs/06-vr-older-adults-65-to-103-2023/thumbnail.jpg"
+  tags: [older-adults]
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1089/cyber.2023.0188"
+  awards:
+    - "Top paper award, Communication and Aging Division, National Communication Association"
+  coverage:
+    - label: "Associated Press"
+      url: "https://apnews.com/article/virtual-reality-seniors-florida-dementia-c2989fcfb5dca58639fbc0f8060d1eff"
+    - label: "CBS News"
+      url: "https://www.youtube.com/watch?v=WtMj4fRC7a0"
+    - label: "The New York Times"
+      url: "https://www.nytimes.com/2026/04/15/technology/vr-technology-elderly-community-social-isolation.html"
+    - label: "WGLT (NPR)"
+      url: "https://www.wglt.org/local-news/2024-03-07/a-bloomington-creators-vr-worlds-are-helping-older-adults-stave-off-social-isolation"
+
+- title: "Exposure to untrustworthy websites in the 2020 US election"
+  authors: "Moore, R.C.*, Dahlke, R.*, & Hancock, J.T."
+  venue: "Nature Human Behaviour"
+  year: 2023
+  status: published
+  image: "/assets/pubs/07-untrustworthy-websites-2020-election-2023/thumbnail.jpg"
+  tags: [misinformation, computational-methods, media-consumption]
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1038/s41562-023-01564-2"
+  coverage:
+    - label: "The New York Times"
+      url: "https://www.nytimes.com/2023/04/13/business/media/misinformation-2020-election-study.html"
+    - label: "The Minnesota Star Tribune"
+      url: "https://www.startribune.com/keep-up-the-fight-against-misinformation/600268148"
+    - label: "The Daily Beast"
+      url: "https://www.thedailybeast.com/stanford-study-finds-less-people-clicked-on-fake-news-sites-in-2020-election/"
+    - label: "World Economic Forum"
+      url: "https://www.weforum.org/stories/2024/01/billions-at-the-ballot-box-and-a-possible-lasting-mark-on-democracy/"
+
+- title: "Political information search in \"noisy\" online environments: Insights from an experiment examining older and younger adults' searches on smartphones and laptops"
+  authors: "Moore, R.C., Coronel, J.C., Bullock, O.M., Lerner, S., & Sheehan, M."
+  venue: "Journal of Information Technology & Politics"
+  year: 2023
+  status: published
+  image: "/assets/pubs/08-political-info-search-noisy-environments-2023/thumbnail.jpg"
+  tags: [older-adults, media-consumption]
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1080/19331681.2023.2194881"
+
+- title: "Designing misinformation interventions for all: Perspectives from AAPI, Black, Latino, and Native American community leaders on misinformation educational efforts"
+  authors: "Lee, A.Y., Moore, R.C., & Hancock, J.T."
+  venue: "Harvard Kennedy School Misinformation Review"
+  year: 2023
+  status: published
+  image: "/assets/pubs/09-designing-misinfo-interventions-aapi-2023/thumbnail.jpg"
+  tags: [misinformation, interventions]
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.37016/mr-2020-111"
+
+- title: "A digital media literacy intervention for older adults improves resilience to fake news"
+  authors: "Moore, R.C. & Hancock, J.T."
+  venue: "Scientific Reports"
+  year: 2022
+  status: published
+  image: "/assets/pubs/10-digital-media-literacy-fake-news-2022/thumbnail.jpg"
+  tags: [misinformation, older-adults, interventions]
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1038/s41598-022-08437-0"
+
+- title: "Interpersonal discussion and political knowledge: Unpacking the black box via a combined experimental and content-analytic approach"
+  authors: "Moore, R.C. & Coronel, J.C."
+  venue: "Human Communication Research"
+  year: 2022
+  status: published
+  image: "/assets/pubs/11-interpersonal-discussion-political-knowledge-2022/thumbnail.jpg"
+  tags: [interventions]
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1093/hcr/hqac002"
+
+- title: "Age-related differences in experiences with social distancing at the onset of the COVID-19 pandemic: A computational and content-analytic investigation of natural language from a social media survey"
+  authors: "Moore, R.C., Lee, A.Y., Hancock, J.T., Halley, M.C., & Linos, E."
+  venue: "JMIR Human Factors"
+  year: 2021
+  status: published
+  image: "/assets/pubs/12-covid-social-distancing-2021/thumbnail.jpg"
+  tags: [older-adults, computational-methods]
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.2196/26043"
+
+- title: "Older adults, social technologies, and the coronavirus pandemic: Challenges, strengths, and strategies for support"
+  authors: "Moore, R.C. & Hancock, J.T."
+  venue: "Social Media + Society"
+  year: 2020
+  status: published
+  image: "/assets/pubs/13-older-adults-social-tech-pandemic-2020/thumbnail.jpg"
+  tags: [older-adults]
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1177/2056305120948162"
+
+- title: "Do gender cues from images supersede partisan cues conveyed via text? Eye movements reveal political stereotyping in multimodal information environments"
+  authors: "Coronel, J.C., Moore, R.C., & deBuys, B."
+  venue: "Political Communication"
+  year: 2020
+  status: published
+  image: "/assets/pubs/14-gender-cues-partisan-text-2020/thumbnail.jpg"
+  tags: [media-consumption]
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1080/10584609.2020.1763530"
+
+- title: "Extending Truth-Default Theory to misinformation: Connecting misinformation scholarship and deception research"
+  authors: "Moore, R.C. & Hancock, J.T."
+  venue: "Perspectives on Psychological Science"
+  status: conditionally_accepted
+  tags: [misinformation]
+  links:
+    - label: "Preprint"
+      url: "https://doi.org/10.31234/osf.io/q3zna_v1"
+
+- title: "Exposure to (AI-generated) untrustworthy websites in the 2024 US presidential election"
+  authors: "Dahlke, R.*, Moore, R.C.*, & Hancock, J.T."
+  status: in_revision
+  tags: [misinformation, ai, computational-methods, media-consumption]
+  links:
+    - label: "Preprint"
+      url: "https://doi.org/10.31234/osf.io/qtdmg_v1"
+
+- title: "Strengthening digital media literacy: An experimental evaluation of verification skills, general warnings, and social correction strategies"
+  authors: "Tu, F., Moore, R.C., Liu, S.X., & Hancock, J.T."
+  status: in_revision
+  tags: [misinformation, interventions]
+  links:
+    - label: "Preprint"
+      url: "https://doi.org/10.31235/osf.io/2stxu_v1"
+  awards:
+    - "Top paper award, Communication and Technology Division, International Communication Association"
+
+- title: "A computational analysis of millions of scam and spam robocalls targeting older adults and the general public"
+  authors: "Moore, R.C. & Shadel, D."
+  status: under_review
+  tags: [scams, older-adults, computational-methods]
+  links:
+    - label: "Preprint"
+      url: "https://doi.org/10.31235/osf.io/mx78s_v1"
+
+- title: "Generative AI and knowledge gains among older adults and people of color: Between opportunity and inequality"
+  authors: "Lee, J. & Moore, R.C."
+  status: under_review
+  tags: [older-adults, ai]
+  links:
+    - label: "Preprint"
+      url: "https://doi.org/10.31235/osf.io/cf85t_v1"
+
+- title: "Detecting synthetic, doubting authentic: AI attribution bias for political imagery"
+  authors: "Yan, H.Y., Moore, R.C., Tu, F., & Hancock, J.T."
+  status: under_review
+  tags: [misinformation, ai, older-adults]
+  links:
+    - label: "Preprint"
+      url: "https://doi.org/10.31219/osf.io/w6bzx_v1"

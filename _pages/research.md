@@ -5,92 +5,95 @@ title: "Research"
 
 ## Publications
 
-The private life of QAnon: A mixed methods investigation of Americans’ exposure to QAnon content on the web<br>
-*Proceedings of the ACM on Human-Computer Interaction (CSCW)*<br>
-**Moore, R.C.**, Dahlke, R., Forberg, P., & Hancock, J.T. (2024)<br>
-[https://doi.org/10.1145/3687057](https://doi.org/10.1145/3687057){:target="_blank"}
+{% assign pubs = site.data.publications | where: "status", "published" | sort: "year" | reverse %}
+{% assign all_tags = "" | split: "," %}
+{% for pub in site.data.publications %}
+  {% assign all_tags = all_tags | concat: pub.tags %}
+{% endfor %}
+{% assign unique_tags = all_tags | uniq %}
 
-Can digital literacy improve older adults’ resilience to misinformation? A randomized control trial<br>
-Stage 1 Registered Report Accepted in Principle at *Communications Psychology*<br>
-**Moore, R.C.**, Tran, J., Matz, S.C., & Hancock, J.T. (2024)<br>
-[https://tinyurl.com/3m2tuy58](https://tinyurl.com/3m2tuy58){:target="_blank"}
+{% comment %} Fixed display order for the filter buttons below. If you introduce a new tag, add it here too — otherwise it just gets appended at the end. {% endcomment %}
+{% assign tag_order = "older-adults,media-consumption,misinformation,scams,interventions,ai,computational-methods" | split: "," %}
+{% assign ordered_tags = "" | split: "," %}
+{% for tag in tag_order %}
+  {% if unique_tags contains tag %}
+    {% assign single = tag | split: "," %}
+    {% assign ordered_tags = ordered_tags | concat: single %}
+  {% endif %}
+{% endfor %}
+{% for tag in unique_tags %}
+  {% unless tag_order contains tag %}
+    {% assign single = tag | split: "," %}
+    {% assign ordered_tags = ordered_tags | concat: single %}
+  {% endunless %}
+{% endfor %}
+{% assign unique_tags = ordered_tags %}
 
-Collaboration, crowdsourcing, and misinformation<br>
-*PNAS Nexus*<br>
-Jia, C., Lee, A.Y., **Moore, R.C.**, Decatur, C., Liu, S.X., Hancock, J.T. (2024)<br>
-[doi.org/10.1093/pnasnexus/pgae434](https://doi.org/10.1093/pnasnexus/pgae434){:target="_blank"}
+<p class="pub-note">* indicates co-first authorship</p>
 
-Building resilience to misinformation in communities of color: Results from two studies of tailored digital media literacy interventions<br>
-*New Media & Society*<br>
-Lee, A.Y., **Moore, R.C.**, & Hancock, J.T. (2024)<br>
-[doi.org/10.1177/14614448241227841](https://doi.org/10.1177/14614448241227841){:target="_blank"}
+<div class="tag-filter">
+  <button data-tag="all" class="active">All</button>
+  {% for tag in unique_tags %}
+  <button data-tag="{{ tag }}">{{ tag | replace: '-', ' ' }}</button>
+  {% endfor %}
+</div>
 
-From 65 to 103, older adults experience virtual reality differently depending on their age: Evidence from a large-scale field study in nursing homes and assisted living facilities<br>
-*Cybperpsychology, Behavior, and Social Networking*<br>
-**Moore, R.C.**, Hancock, J.T., & Bailenson, J.N. (2023)<br>
-[doi.org/10.1089/cyber.2023.0188](http://doi.org/10.1089/cyber.2023.0188){:target="_blank"}<br>
-Coverage by [Associated Press](https://apnews.com/article/virtual-reality-seniors-florida-dementia-c2989fcfb5dca58639fbc0f8060d1eff){:target="_blank"}, [CBS News](https://www.cbsnews.com/video/older-adults-benefit-from-virtual-reality-headsets-study/){:target="_blank"}, [WGLT (NPR Station)](https://www.wglt.org/local-news/2024-03-07/a-bloomington-creators-vr-worlds-are-helping-older-adults-stave-off-social-isolation){:target="_blank"}, [Fortune](https://fortune.com/2024/02/19/stanford-university-vr-study-seniors-eldery/){:target="_blank"}, [The Washington Post](https://www.washingtonpost.com/technology/2023/12/21/virtual-reality-eldercare-benefits-loneliness/){:target="_blank"}, [McKnights Senior Living](https://www.mcknightsseniorliving.com/home/technology/providers-advised-vr-platforms-may-not-be-worthwhile-for-octogenarians-and-above/){:target="_blank"}
+<ul class="pub-list">
+  {% for pub in pubs %}
+  <li class="pub-item" data-tags="{{ pub.tags | join: ',' }}">
+    <img class="pub-thumb" src="{{ pub.image | default: '/assets/pubs/placeholder.svg' | relative_url }}" alt="">
+    <div class="pub-body">
+      <p class="pub-title">{{ pub.title }}</p>
+      <p class="pub-meta">
+        <em>{{ pub.venue }}</em>, {{ pub.year }}<br>
+        {{ pub.authors | replace: "Moore, R.C.", "<strong>Moore, R.C.</strong>" }}
+      </p>
+      <p class="pub-links">
+        {% for link in pub.links %}<a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>{% endfor %}
+        {% if pub.blurb %}<button class="pub-toggle">nutshell description</button>{% endif %}
+      </p>
+      {% if pub.awards %}
+      <p class="pub-meta">{% for a in pub.awards %}Award: {{ a }}{% unless forloop.last %}<br>{% endunless %}{% endfor %}</p>
+      {% endif %}
+      {% if pub.coverage %}
+      <p class="pub-meta">Coverage: {% for c in pub.coverage %}{% if c.url and c.url != "#" %}<a href="{{ c.url }}" target="_blank" rel="noopener">{{ c.label }}</a>{% else %}{{ c.label }}{% endif %}{% unless forloop.last %}, {% endunless %}{% endfor %}</p>
+      {% endif %}
+      {% if pub.blurb %}<p class="pub-blurb">{{ pub.blurb }}</p>{% endif %}
+    </div>
+  </li>
+  {% endfor %}
+</ul>
 
-Exposure to untrustworthy websites in the 2020 US election<br>
-*Nature Human Behaviour*<br>
-**Moore, R.C.**, Dahlke, R., & Hancock, J.T. (2023)<br>
-[doi.org/10.1038/s41562-023-01564-2](https://doi.org/10.1038/s41562-023-01564-2){:target="_blank"}<br>
-Coverage by [The New York Times](https://www.nytimes.com/2023/04/13/business/media/misinformation-2020-election-study.html){:target="_blank"}, [Stanford News](https://news.stanford.edu/2023/04/13/2020-election-saw-fewer-people-clicking-misinformation-websites-stanford-study-finds/){:target="_blank"}
+{% assign working_papers = site.data.publications | where_exp: "p", "p.status != 'published'" %}
+{% if working_papers.size > 0 %}
+<div class="working-papers">
+  <h2>Working Papers</h2>
+  {% for wp in working_papers %}
+  <div class="wp-item" data-tags="{{ wp.tags | join: ',' }}">
+    <p class="pub-title">{{ wp.title }}</p>
+    <p class="wp-status">
+      {% if wp.status == 'conditionally_accepted' %}Conditionally Accepted at <em>{{ wp.venue }}</em>
+      {% elsif wp.status == 'in_revision' %}Revise &amp; Resubmit
+      {% else %}Under Review{% endif %}
+    </p>
+    <p class="pub-meta">{{ wp.authors | replace: "Moore, R.C.", "<strong>Moore, R.C.</strong>" }}</p>
+    {% if wp.links %}
+    <p class="pub-links">{% for link in wp.links %}<a href="{{ link.url }}" target="_blank" rel="noopener">{{ link.label }}</a>{% endfor %}</p>
+    {% endif %}
+    {% if wp.awards %}
+    <p class="pub-meta">{% for a in wp.awards %}Award: {{ a }}{% unless forloop.last %}<br>{% endunless %}{% endfor %}</p>
+    {% endif %}
+  </div>
+  {% endfor %}
+</div>
+{% endif %}
 
-Political information search in “noisy” online environments: Insights from an experiment examining older and younger adults’ searches on smartphones and laptops<br>
-*Journal of Information Technology & Politics*<br>
-**Moore, R.C.**, Coronel, J.C., Bullock, O.M., Lerner, S., & Sheehan, M. (2023)<br>
-[doi.org/10.1080/19331681.2023.2194881](https://doi.org/10.1080/19331681.2023.2194881){:target="_blank"}
+<h2 id="dissertation-heading">Dissertation</h2>
 
-Designing misinformation interventions for all: Perspectives from AAPI, Black, Latino, and Native American community leaders on misinformation educational efforts<br>
-*Harvard Kennedy School Misinformation Review*<br>
-Lee, A.Y., **Moore, R.C.**, & Hancock, J.T. (2023)<br>
-[doi.org/10.37016/mr-2020-111](https://doi.org/10.37016/mr-2020-111){:target="_blank"}
+<div class="wp-item" data-tags="older-adults,misinformation,interventions,media-consumption">
+  <p class="pub-title">Short Educational Videos Improve Older Adults' Digital Literacy and Resilience to Online Deception at Scale</p>
+  <p class="pub-meta">Stanford University, 2025<br>Winner of the Nathan Maccoby Outstanding Dissertation Award</p>
+  <p class="pub-links"><a href="https://purl.stanford.edu/vn678vq6064" target="_blank" rel="noopener">Link</a></p>
+</div>
 
-A digital media literacy intervention for older adults improves resilience to fake news<br>
-*Scientific Reports*<br>
-**Moore, R.C.** & Hancock, J.T. (2022)<br>
-[doi.org/10.1038/s41598-022-08437-0](https://doi.org/10.1038/s41598-022-08437-0){:target="_blank"}
-
-Interpersonal discussion and political knowledge: Unpacking the black box via a combined experimental and content-analytic approach<br>
-*Human Communication Research*<br>
-**Moore, R.C.** & Coronel, J.C. (2022)<br>
-[doi.org/10.1093/hcr/hqac002](https://doi.org/10.1093/hcr/hqac002){:target="_blank"}
-
-Age-related differences in experiences with social distancing at the onset of the COVID-19 pandemic: A computational and content-analytic investigation of natural language from a social media survey<br>
-*JMIR Human Factors*<br>
-**Moore, R.C.**, Lee, A.Y., Hancock, J.T., Halley, M.C., & Linos, E. (2021)<br>
-[doi.org/10.2196/26043](https://doi.org/10.2196/26043){:target="_blank"}<br>
-Coverage by [Stanford News](https://news.stanford.edu/2020/04/14/people-didnt-social-distance/){:target="_blank"}
-
-Older adults, social technologies, and the coronavirus pandemic: Challenges, strengths, and strategies for support<br>
-*Social Media + Society*<br>
-**Moore, R.C.** & Hancock, J.T. (2020)<br>
-[doi.org/10.1177/2056305120948162](https://doi.org/10.1177/2056305120948162){:target="_blank"}
-
-Do gender cues from images supersede partisan cues conveyed via text? Eye movements reveal political stereotyping in multimodal information environments<br>
-*Political Communication*<br>
-Coronel, J.C., **Moore, R.C.**, & deBuys, B. (2020)<br>
-[doi.org/10.1080/10584609.2020.1763530](https://doi.org/10.1080/10584609.2020.1763530){:target="_blank"}
-
-## Revise & Resubmit
-
-Extending Truth-Default Theory to misinformation: lessons for misinformation scholarship from deception research<br>
-Revise & Resubmit at *Perspectives on Psychological Sceince*<br>
-**Moore, R.C.** & Hancock, J.T.
-
-The consumption of pink slime journalism: Who, what, when, where, and why?<br>
-Revise & Resubmit at *Digital Journalism*<br>
-Dahlke, R., **Moore, R.C.**, Bengani, P., & Hancock, J.T.
-
-Multi-platform referrers of misinformation: A comparative analysis of misinformation visits referred by Facebook, Twitter, Instagram, Reddit, YouTube, Snapchat, and TikTok<br>
-Revise & Resubmit at *Political Communication*<br>
-Dahlke, R., **Moore, R.C.**, Adib-Azpeitia, D., Ugander, J., & Hancock, J.T.
-
-## Under Review
-
-Detecting synthetic, doubting authentic: AI attribution bias for political imagery.<br>
-Yan, H.Y., **Moore, R.C.**, Tu, F., & Hancock, J.T.
-
-Strengthening digital media literacy: An experimental evaluation of verification skills, general warnings, and social correction strategies<br>
-Tu, F., **Moore, R.C.**, Liu, S.X., & Hancock, J.T.
+<script src="{{ '/assets/js/pubs.js' | relative_url }}"></script>

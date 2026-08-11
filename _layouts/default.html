@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} · {% endif %}{{ site.title }}</title>
+  <link rel="icon" type="image/x-icon" href="{{ '/favicon.ico' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  {% seo %}
+</head>
+<body>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
+      <nav class="site-nav">
+        {% for item in site.data.navigation.main %}
+        <a href="{{ item.url | relative_url }}"{% if page.url == item.url %} class="active"{% endif %}>{{ item.title }}</a>
+        {% endfor %}
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    {{ content }}
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <span>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</span>
+    </div>
+  </footer>
+</body>
+</html>
