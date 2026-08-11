@@ -91,6 +91,7 @@ main.wrap {
 .profile img {
   width: 140px;
   height: 140px;
+  margin-top: 6px;
   object-fit: cover;
   border-radius: 8px;
   flex-shrink: 0;
@@ -98,6 +99,9 @@ main.wrap {
 .profile-body {
   flex: 1;
   min-width: 0;
+}
+.profile-body p:first-child {
+  margin-top: 0;
 }
 @media (max-width: 520px) {
   .profile {
