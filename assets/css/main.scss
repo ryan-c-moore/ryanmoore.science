@@ -88,6 +88,12 @@ main.wrap {
   align-items: flex-start;
   margin-bottom: 32px;
 }
+.profile-photo {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  flex-shrink: 0;
+}
 .profile img {
   width: 140px;
   height: 140px;
@@ -114,9 +120,8 @@ main.wrap {
 }
 .profile-links {
   display: flex;
-  flex-wrap: wrap;
-  gap: 14px;
-  margin-top: 8px;
+  flex-direction: column;
+  gap: 8px;
 }
 .profile-links a {
   font-size: 0.95rem;
