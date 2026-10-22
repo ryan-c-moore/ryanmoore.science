@@ -30,6 +30,17 @@
 #   blurb    - optional 1-2 sentence plain-language summary. If present, a
 #              "nutshell description" toggle appears for that entry.
 
+- title: "Extending Truth-Default Theory to misinformation: Connecting misinformation scholarship and deception research"
+  authors: "Moore, R.C. & Hancock, J.T."
+  venue: "Perspectives on Psychological Science"
+  year: 2026
+  status: published
+  image: "/assets/pubs/15-truth-default-theory-2026/thumbnail.svg"
+  tags: [misinformation]
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1177/17456916261475589"
+
 - title: "Multi-platform referrers of misinformation: A comparative analysis of misinformation visits referred by Facebook, Twitter, Instagram, Reddit, YouTube, Snapchat, and TikTok"
   authors: "Dahlke, R., Moore, R.C., Adib-Azpeitia, D., Ugander, J., & Hancock, J.T."
   venue: "Political Communication"
@@ -210,15 +221,6 @@
   links:
     - label: "DOI"
       url: "https://doi.org/10.1080/10584609.2020.1763530"
-
-- title: "Extending Truth-Default Theory to misinformation: Connecting misinformation scholarship and deception research"
-  authors: "Moore, R.C. & Hancock, J.T."
-  venue: "Perspectives on Psychological Science"
-  status: conditionally_accepted
-  tags: [misinformation]
-  links:
-    - label: "Preprint"
-      url: "https://doi.org/10.31234/osf.io/q3zna_v1"
 
 - title: "Exposure to (AI-generated) untrustworthy websites in the 2024 US presidential election"
   authors: "Dahlke, R.*, Moore, R.C.*, & Hancock, J.T."
