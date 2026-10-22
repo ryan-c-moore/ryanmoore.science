@@ -30,17 +30,6 @@
 #   blurb    - optional 1-2 sentence plain-language summary. If present, a
 #              "nutshell description" toggle appears for that entry.
 
-- title: "Extending Truth-Default Theory to misinformation: Connecting misinformation scholarship and deception research"
-  authors: "Moore, R.C. & Hancock, J.T."
-  venue: "Perspectives on Psychological Science"
-  year: 2026
-  status: published
-  image: "/assets/pubs/15-truth-default-theory-2026/thumbnail.svg"
-  tags: [misinformation]
-  links:
-    - label: "DOI"
-      url: "https://doi.org/10.1177/17456916261475589"
-
 - title: "Multi-platform referrers of misinformation: A comparative analysis of misinformation visits referred by Facebook, Twitter, Instagram, Reddit, YouTube, Snapchat, and TikTok"
   authors: "Dahlke, R., Moore, R.C., Adib-Azpeitia, D., Ugander, J., & Hancock, J.T."
   venue: "Political Communication"
@@ -69,6 +58,17 @@
       url: "https://www.bostonglobe.com/2024/06/26/business/pink-slime-fake-news-new-england-west-cook/"
     - label: "Northwestern Local News Initiative"
       url: "https://localnewsinitiative.northwestern.edu/posts/2023/03/28/pink-slime-stanford-study/"
+
+- title: "Extending Truth-Default Theory to misinformation: Connecting misinformation scholarship and deception research"
+  authors: "Moore, R.C. & Hancock, J.T."
+  venue: "Perspectives on Psychological Science"
+  year: 2026
+  status: published
+  image: "/assets/pubs/15-truth-default-theory-2026/thumbnail.svg"
+  tags: [misinformation]
+  links:
+    - label: "DOI"
+      url: "https://doi.org/10.1177/17456916261475589"
 
 - title: "The private life of QAnon: A mixed methods investigation of Americans' exposure to QAnon content on the web"
   authors: "Moore, R.C.*, Dahlke, R.*, Forberg, P., & Hancock, J.T."
